@@ -240,7 +240,7 @@ Edit `src/config.py` to change:
 
 ## 👤 Author
 
-Built as part of a student ML project using the GitHub Student Developer Pack.
+**Naman Malhan**
 
 ---
 
