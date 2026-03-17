@@ -1,0 +1,66 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Model files (too large for GitHub)
+models/text_emotion/best_model/
+models/text_emotion/final_model/
+models/text_emotion/checkpoint-*/
+
+# Hugging Face cache
+.cache/
+
+# Data files
+data/processed/
+data/facial/webcam_captures/
+data/speech/recordings/
+
+# Logs (optional — remove these lines if you want to keep logs)
+logs/mood_history_log.csv
+logs/facial_emotion_log.csv
+logs/speech_emotion_log.csv
+
+# Generated dashboard (regenerated on deploy)
+outputs/dashboard.html
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ngrok token (never commit this!)
+# Make sure NGROK_TOKEN in deploy_ngrok.py is replaced before pushing
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Temp files
+*.tmp
+*.bak
+*.swp

@@ -1,0 +1,33 @@
+# AI-Powered Task Optimizer — Requirements
+# Install with: pip install -r requirements.txt
+
+# Core ML
+torch==2.2.2
+torchaudio==2.2.2
+transformers==4.40.0
+datasets==2.19.0
+
+# Audio
+librosa==0.10.1
+soundfile==0.12.1
+
+# Facial
+deepface==0.0.92
+tf-keras==2.16.0
+opencv-python==4.9.0.80
+
+# API
+fastapi==0.111.0
+uvicorn==0.29.0
+python-multipart==0.0.9
+
+# Data
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Utilities
+tqdm==4.66.4
+ipywidgets==8.1.2
